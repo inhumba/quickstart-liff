@@ -110,7 +110,8 @@ async function main() {
 main();
 
 btnLogIn.onclick = () => {
-  liff.login();
+  //liff.login();
+  liff.login({ bot_prompt: "aggressive" });
 };
 
 btnLogOut.onclick = () => {
